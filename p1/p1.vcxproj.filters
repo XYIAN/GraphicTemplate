@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{8f638c97-f3e8-4bca-b86b-ef17f3a2d5ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="p1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\bug.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\build_8dox.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\build_guide.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\compat_8dox.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\compat_guide.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\compile_8dox.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\compile_guide.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\context_8dox.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\context_guide.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\deprecated.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\dir_15a5176d7c9cc5c407ed4f611edf0684.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\dir_a58ef735c5cc5a9a31d321e1abe7c42e.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\dir_abae1f34c5d965773b98e3c915cdaeb5.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\dir_bc6505cac00d7a6291dbfd9af70666b7.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\files.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\glfw3native_8h.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\glfw3native_8h_source.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\glfw3_8h.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\glfw3_8h_source.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__buttons.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__context.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__errors.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__gamepad__axes.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__gamepad__buttons.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__hat__state.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__init.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__input.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__joysticks.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__keys.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__mods.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__monitor.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__native.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__shapes.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__vulkan.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\group__window.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\index.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\input_8dox.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\input_guide.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\internals_guide.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\internal_8dox.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\intro_8dox.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\intro_guide.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\main_8dox.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\modules.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\monitor_8dox.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\monitor_guide.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\moving_8dox.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\moving_guide.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\news.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\news_8dox.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\pages.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\quick_8dox.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\quick_guide.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_0.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_1.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_10.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_11.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_2.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_3.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_4.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_5.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_6.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_7.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_8.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_9.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_a.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_b.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_c.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_d.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_e.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\all_f.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\classes_0.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\defines_0.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\files_0.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\files_1.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\files_2.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\files_3.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\files_4.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\files_5.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\files_6.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\files_7.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\files_8.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\functions_0.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\groups_0.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\groups_1.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\groups_2.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\groups_3.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\groups_4.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\groups_5.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\groups_6.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\groups_7.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\groups_8.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\groups_9.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\groups_a.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\nomatches.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\pages_0.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\pages_1.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\pages_2.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\pages_3.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\pages_4.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\pages_5.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\pages_6.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\pages_7.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\pages_8.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\pages_9.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\pages_a.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\typedefs_0.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\variables_0.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\variables_1.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\variables_2.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\variables_3.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\variables_4.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\variables_5.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\variables_6.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\search\variables_7.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\structGLFWgamepadstate.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\structGLFWgammaramp.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\structGLFWimage.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\structGLFWvidmode.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\vulkan_8dox.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\vulkan_guide.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\window_8dox.html">
+      <Filter>Dependencies</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\docs\html\window_guide.html">
+      <Filter>Dependencies</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\include\GLFW\glfw3.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Desktop\glfw-3.3.2.bin.WIN64 (1)\glfw-3.3.2.bin.WIN64\include\GLFW\glfw3native.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

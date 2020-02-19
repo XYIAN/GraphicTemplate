@@ -1,0 +1,9 @@
+Kyle Xyian Dilbeck 
+grading.txt 
+cst325
+project1
+Tasks Completed:
+1. Render Triangle (Completed) +6 
+2. Different Shape(Incomplete) 0 
+3. Motion (incomplete) 0 
+4. user input (Completed) +4
