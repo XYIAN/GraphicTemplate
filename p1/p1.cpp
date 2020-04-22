@@ -5,9 +5,9 @@
 #include <iostream>
 
 
-unsigned long vertex_count; 
-unsigned vao; 
-unsigned int vbo; 
+unsigned long vertex_count;
+unsigned vao;
+unsigned int vbo;
 
 //function definitions 
 void load_geometry() {
@@ -53,16 +53,22 @@ GLuint compile_shader() {
     const char* vertex_shader_src =
         "#version 330 core\n"
         "layout (location = 0) in vec3 pos;\n"
+        "uniform vec2 offset;\n"
         "void main() {\n"
-        "   gl_Position = vec4(pos.x, pos.y, pos.z, 1.0);\n"
+        "   gl_Position = vec4(pos.x + offset.x, pos.y + offset.y, pos.z, 1.0);\n"
         "}\n";
     const char* fragment_shader_src =
         "#version 330 core\n"
         "out vec4 FragColor;\n"
+        "uniform vec4 color;\n"
+        "uniform sampler2D tex;\n"
         "void main() {\n"
-        "   FragColor = vec4(0.0f, 0.0f, 1.0f, 1.0f);\n"
+        "   vec2 uvs = vec2(gl_FragCoord) / 100.0;\n"
+        "   FragColor = texture(tex, uvs);\n"
+        //        "   FragColor = color;\n"
         "}\n";
-
+    //GLint color_location = glGetUniformLocation(compile_shader(), "color");
+    //glUniform4f(color_location, 1.0, 0.0, 0.0, 1.0);
     // Define some vars
     const int MAX_ERROR_LEN = 512;
     GLint success;
@@ -115,23 +121,14 @@ GLuint compile_shader() {
 
     return shader_program;
 }//end compile_shader()
-//
-void render_scene(GLFWwindow* window, GLsizei vertex_count) {
-    // Set the clear color
-    glClearColor(0.7f, 0.0f, 0.5f, 1.0f);
 
-    // Clear the screen
-    glClear(GL_COLOR_BUFFER_BIT);
-
-
-    // Draw the current vao/vbo, with the current shader
-    //Glint color_location
+void tri(GLsizei vertex_count){
+    //load multiple triangles here
+    glDrawArrays(GL_TRIANGLES, 0, vertex_count);
     glDrawArrays(GL_TRIANGLES, 0, vertex_count);
 
-    // Display the results on screen
-    glfwSwapBuffers(window);
-}//end render_scene()
-//
+}
+
 
 GLFWwindow* initialize_glfw() {
     // Initialize the context
@@ -163,33 +160,103 @@ GLFWwindow* initialize_glfw() {
     return window;
 }
 
+
+
+void uniform(GLuint shader) {
+    //color change
+    GLint color_location = glGetUniformLocation(shader, "color");
+    glUniform4f(color_location, 1.0, 0.0, 0.0, 1.0);
+
+    //motion moves up right 
+    GLint move = glGetUniformLocation(shader, "offset");
+    glUniform2f(move, .8, .5);
+}
+
+void offsetUniform(GLuint shader, int num) {
+    //basic offset uniform here 
+    //motion moves up right 
+    GLint move = glGetUniformLocation(shader, "offset");
+    glUniform2f(move, .1*num, .2*num);
+    glDrawArrays(GL_TRIANGLES, 0, vertex_count);
+    //newtonian 
+    //particle.velocity += particle.acceleration * delta_time;
+    //particle.position += particle.velocity * delta_time;
+
+}
+
+
+void colorUniform(GLuint shader) {
+    //basic color uniform here
+    //color change
+    GLint color_location = glGetUniformLocation(shader, "color");
+    glUniform4f(color_location, 1.0, 1.0, 0.0, 1.0);
+}
+
+void load_textures() {
+    glActiveTexture(GL_TEXTURE0); 
+    GLuint tex; 
+    glGenTextures(1, &tex); 
+    glBindTexture(GL_TEXTURE_2D, tex);
+
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
+
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+
+
+    //set pixels -- typicalls from file vs in funct 
+    GLsizei width = 2;
+    GLsizei height = 2;
+    float pixels[] = {
+    0.0f, 0.0f, 0.0f,	1.0f, 1.0f, 1.0f, // r, g, b,   r, g, b
+    1.0f, 1.0f, 1.0f,	0.0f, 0.0f, 0.0f, // r, g, b,   r, g, b
+    };
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_FLOAT, pixels);
+    
+    //GLuint tex_location = glGetUniformLocation(compile_shader, tex);
+    //glUniform1i(tex_location, 0);
+
+    //glDeleteTextures(1, &tex);
+
+}
+void render_scene(GLFWwindow* window, GLsizei vertex_count, GLuint shader) {
+    // Set the clear color
+    glClearColor(0.7f, 0.0f, 0.5f, 1.0f);
+
+    // Clear the screen
+    glClear(GL_COLOR_BUFFER_BIT);
+
+    // Draw the current vao/vbo, with the current shader
+    glDrawArrays(GL_TRIANGLES, 0, vertex_count);
+    offsetUniform(shader, 1);
+    glDrawArrays(GL_TRIANGLES, 0, vertex_count);
+    offsetUniform(shader, 2);
+    // Display the results on screen
+    glfwSwapBuffers(window);
+}//end render_scene()
+//
 void cleanup(GLFWwindow* window) {
     // Call glfw terminate here
+    //glTerminate();
+    //glDeleteTextures(1, &tex);
 }
 
 //end function definitions
 int main(void) {
-
     GLFWwindow* window = initialize_glfw();
-    compile_shader();
+    GLuint shader = compile_shader();
     load_geometry();
+    //uniform(shader); 
+    //colorUniform(shader); 
+    //offsetUniform(shader);
+    //offsetUniform(shader);
 
-    // The vertex input
-    //layout(location = 0) in vec3 pos;
 
-    //user input prompt 4pts 
-    int state = glfwGetKey(window, GLFW_KEY_E);
-    if (state == GLFW_PRESS)
-    {
-        std::cout<<"You entered "<<state;
-    }
-    else
-        std::cout << "You entered " << state;
     
-    //gl_Position = vec4(pos.x, pos.y, pos.z, 1.0);
 
     while (!glfwWindowShouldClose(window)) {
-        render_scene(window, 3);
+        render_scene(window, 3, shader);
         glfwPollEvents();
     }
 
